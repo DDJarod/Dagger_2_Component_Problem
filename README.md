@@ -14,4 +14,4 @@ In the state the project is checked in, after compile there is no Dagger compone
 
 When the 'di.RandomInterfaceModule' method 'RandomInterface provideRandomInterface' uses 'CopiedFromOtherProcessor' instead of 'GeneratedByOtherProcessor' as argument (which is a copy from the generated file, except the classname) then the project still compiles without error AND it will generate the Dagger component file correctly.
 
-
+Dagger 2 issue created about this: https://github.com/google/dagger/issues/269
